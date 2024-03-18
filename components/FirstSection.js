@@ -18,7 +18,7 @@ export default function FirstSection(){
     </div>
     <div className={'firstSectionAlign'}>
       <div className={'leftSide'}>
-        <div className={'imgContainer'}><Image src='/about.png' fill='responsive' alt=''/></div>
+        <div className={'imgContainer'}><Image src='/about2.png' fill='responsive' alt=''/></div>
       </div>
       <div className={'rightSide'}>
         <div className={'title'}><span>WHAT IS LANDWOLF</span></div>
@@ -73,7 +73,7 @@ export default function FirstSection(){
 
     .firstSectionAlign .leftSide .imgContainer{
       position: relative;
-      width: 450px;
+      width: 550px;
       height: 350px;
       background-color: black;
       border-radius: 10px;

@@ -11,7 +11,7 @@ export default function ThirdSection() {
 
           <div className="bodyTokenomics">
           <div className="leftSide">
-            <div className="imgContainer"><Image src='/logo4.png' alt='' fill='responsive'/></div>
+            <div className="imgContainer"><Image src='/about.png' alt='' fill='responsive'/></div>
           </div>
           <div className="rightSide">
             <div className="boxTxt">
@@ -38,7 +38,7 @@ export default function ThirdSection() {
         .thirdSection {
           width: 100%;
           min-height: 550px;
-          background-color: #efefef;
+          background-color: #D035FA;
           display: flex;
           align-items: center;
           justify-content: flex-start;
@@ -66,7 +66,7 @@ export default function ThirdSection() {
         }
 
         .customShape .shapeFill {
-            fill: #efefef;
+            fill: #D035FA;
         }
 
         .title{
@@ -85,7 +85,7 @@ export default function ThirdSection() {
           -moz-background-clip: text;
           stroke-width: 3px;
           -webkit-text-stroke-width: 2px;
-          -webkit-text-stroke-color: black;
+          -webkit-text-stroke-color: white;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -110,8 +110,8 @@ export default function ThirdSection() {
         }
 
         .imgContainer{
-          width: 500px;
-          height: 500px;
+          width: 550px;
+          height: 400px;
           position: relative;
           border-radius: 20px;
           overflow: hidden;
@@ -128,13 +128,13 @@ export default function ThirdSection() {
         }
 
         .boxTxt {
-          border: 2px solid rgba(0, 0, 0, 0.7);
+          border: 2px solid rgba(255, 255, 255, 0.7);
           padding: 10px;
           border-radius: 10px;
           font-family: var(--F1);
           font-size: 1.5rem;
           font-weight: bold;
-          color: black;
+          color: white;
           padding-left: 20px;
           padding-right: 20px;
         }
@@ -177,7 +177,7 @@ export default function ThirdSection() {
         @media screen and (max-width: 500px){
           .imgContainer{
             width: 400px;
-            height: 400px;
+            height: 250px;
           }
         }
 
@@ -185,7 +185,7 @@ export default function ThirdSection() {
         @media screen and (max-width: 400px){
           .imgContainer{
             width: 350px;
-            height: 350px;
+            height: 200px;
           }
         }
 
