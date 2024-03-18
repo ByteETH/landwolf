@@ -46,7 +46,7 @@ export default function FirstSection(){
     .firstSectionBody{
       width: 100%;
       min-height: 550px;
-      background-color: #efefef;
+      background-color: #D035FA;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -230,7 +230,7 @@ export default function FirstSection(){
         }
 
         .customShape .shapeFill {
-            fill: #efefef;
+            fill: #D035FA;
         }
 
         .customShape2 {
@@ -250,7 +250,7 @@ export default function FirstSection(){
         }
 
         .customShape2 .shapeFill {
-            fill: #EFEFEF;
+            fill: #D035FA;
         }
         `}</style>
         </>
