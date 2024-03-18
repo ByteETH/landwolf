@@ -15,7 +15,7 @@ export default function Navbar() {
             <Link href='#about'><span>About</span></Link>
             <Link href='#htb'><span>How to Buy</span></Link>
             <Link href='#tokenomics'><span>Tokenomics</span></Link>
-            <a href='https://t.me/#' target='_BLANK' rel='noreferrer'>Telegram</a>
+            <a href='https://t.me/landwolfcoinsol' target='_BLANK' rel='noreferrer'>Telegram</a>
             <a href='https://x.com/#' target='_BLANK' rel='noreferrer'>Twitter</a>
           </div>
         </div>

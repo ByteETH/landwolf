@@ -148,9 +148,6 @@ export default function ThirdSection() {
 
         @media screen and (max-width: 1000px){
 
-          .title{
-            margin-top: -90px;
-          }
           .bodyTokenomics{
             flex-direction: column;
           }
