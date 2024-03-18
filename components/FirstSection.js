@@ -27,7 +27,7 @@ export default function FirstSection(){
           {`Solana people are into Landwolf, not frogs.`}
           </span>
           <span>
-            {`Since being established as AVAX’s mascot in 2021 however; Landwolf has never been launched on Solana chain nor given the proper run this absolute chad deserves; that is, until now.`}
+            {`Since being established as AVAX’s mascot in 2021 however; Landwolf has never been launched on Solana chain or given the proper run this absolute chad deserves; that is, until now.`}
           </span>
           <span>
             Join to our community on telegram and enjoy the ride
