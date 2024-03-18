@@ -1,0 +1,121 @@
+.secondSectionContainer{
+  width: 100%;
+  min-height: 600px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.secondSectionContainer .title{
+  width: 100%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  font-family: var(--F1), 'sans-serif';
+  margin-top: 50px;
+  background-image: linear-gradient(45deg, #03E1FF, #DC1FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+  stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.cardsContainer{
+  width: 70%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.flipCard {
+  background-color: transparent;
+  width: 200px;
+  height: 270px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+
+.backDescription {
+  font-size: 0.95rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  margin-top: -10px !important;
+}
+
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+.flipCardFront, .flipCardBack {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.flipCardFront {
+  background-image: linear-gradient(45deg, #03E1FF, #DC1FFF);
+  color: white;
+}
+
+.flipCardFront p:last-child{
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.flipCardBack {
+  background-image: linear-gradient(45deg, #03E1FF, #DC1FFF);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 1500px){
+  .cardsContainer{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .secondSectionContainer{
+    min-height: 800px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .secondSectionContainer .title{
+    font-size: 5rem;
+    margin-top: 30px;
+  }
+}
