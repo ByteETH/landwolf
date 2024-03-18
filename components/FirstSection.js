@@ -40,7 +40,7 @@ export default function FirstSection(){
     <style jsx>{`
 
     .firstSectionContainer span{
-      color: black;
+      color: white;
     }
 
     .firstSectionBody{
@@ -107,12 +107,12 @@ export default function FirstSection(){
       -moz-background-clip: text;
       stroke-width: 3px;
       -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: black;
+      -webkit-text-stroke-color: white;
     }
 
     .description{
       padding-left: 20px;
-      color: black;
+      color: white;
       width: 500px;
       padding-bottom: 10px;
       padding-right: 10px;
