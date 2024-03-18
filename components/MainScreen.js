@@ -14,11 +14,12 @@ export default function MainScreen() {
 
       <style jsx>{`
         .mainScreen {
-          height: 1000px;
+          height: min-content;
           display: flex;
           align-items: center;
           justify-content: flex-start;
           flex-direction: column;
+          padding-bottom: 100px;
         }
         
         .logo{
