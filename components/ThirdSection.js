@@ -15,7 +15,7 @@ export default function ThirdSection() {
           </div>
           <div className="rightSide">
             <div className="boxTxt">
-              <span>Total Supply: 100.000.000</span>
+              <span>Total Supply: 100.000.000.000</span>
             </div>
             <div className="boxTxt">
               <span>Chain: SOLANA</span>
