@@ -20,7 +20,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className='rightSide'>Buy $WOLF</div>
+        <div className='rightSide'><a href='https://raydium.io/swap/?outputCurrency=8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD' target='_BLANK' rel='noreferrer'>Buy $WOLF</a></div>
       </div>
 
       <style jsx>{`
@@ -80,6 +80,7 @@ export default function Navbar() {
           border-radius: 5px;
           margin-right: 25px;
           padding: 5px 0px;
+          cursor: pointer;
         }
 
         @media screen and (max-width: 1000px){

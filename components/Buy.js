@@ -6,7 +6,7 @@ export default function Buy(){
       <div className='buyBox'>
         
       <iframe
-              src="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=######&fixed=in"
+              src="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD&fixed=in"
               title="BelungaCat"
               width="100%"
               height="700px"
