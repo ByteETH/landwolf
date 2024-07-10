@@ -193,22 +193,19 @@ export default function ThirdSection() {
 
         @media screen and (max-width: 550px){
           .title span{
-            font-size: 3.5rem;
+            font-size: 5rem;
           }
         }
 
-        @media screen and (max-width: 500px){
-          .imgContainer{
-            width: 400px;
-            height: 250px;
-          }
-        }
 
         
         @media screen and (max-width: 400px){
           .imgContainer{
-            width: 350px;
-            height: 200px;
+            width: 330px;
+          }
+
+          .title span{
+            font-size: 4.5rem;
           }
         }
         
