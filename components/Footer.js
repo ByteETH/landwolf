@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://twitter.com/#"
+            href="https://x.com/pipitokenerc20"
             target="_BLANK"
             rel="noreferrer"
           >

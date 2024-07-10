@@ -20,7 +20,7 @@ export default function Socials({ wTg, hTg, wDx, hDx, wTw, hTw, sizeLt, wBox, hB
         <Image src="/uniswap.png" width={wR} height={hR} alt="" />
         </div>
         </a>
-        <a href='https://x.com/#' rel='noreferrer' target="_BLANK">
+        <a href='https://x.com/pipitokenerc20' rel='noreferrer' target="_BLANK">
         <div className="box">
           <Image src="/x2.png" width={wTw} height={hTw} alt="" />
         </div>
