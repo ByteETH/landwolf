@@ -5,22 +5,22 @@ export default function Socials({ wTg, hTg, wDx, hDx, wTw, hTw, sizeLt, wBox, hB
   return (
     <>
       <div className="socialsContainer">
-        <a href='https://t.me/landwolfcoinsol' rel='noreferrer' target="_BLANK">
+        <a href='https://t.me/#' rel='noreferrer' target="_BLANK">
         <div className="box">
           <Image src="/telegram2.png" width={wTg} height={hTg} alt="" />
         </div>
         </a>
-        <a href='https://www.dextools.io/app/es/solana/pair-explorer/8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD' rel='noreferrer' target="_BLANK">
+        <a href='https://www.dextools.io/app/es/ether/pair-explorer/#' rel='noreferrer' target="_BLANK">
         <div className="box">
           <Image src="/dx.png" width={wDx} height={hDx} alt="" />
         </div>
         </a>
-        <a href='https://raydium.io/swap/?outputCurrency=8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD' rel='noreferrer' target="_BLANK">
+        <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#' rel='noreferrer' target="_BLANK">
         <div className="box">
-        <Image src="/raydium.webp" width={wR} height={hR} alt="" />
+        <Image src="/uniswap.png" width={wR} height={hR} alt="" />
         </div>
         </a>
-        <a href='https://x.com/LandWolf1000x' rel='noreferrer' target="_BLANK">
+        <a href='https://x.com/#' rel='noreferrer' target="_BLANK">
         <div className="box">
           <Image src="/x2.png" width={wTw} height={hTw} alt="" />
         </div>

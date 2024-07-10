@@ -5,8 +5,17 @@ export default function ThirdSection() {
   return (
     <>
       <div className="thirdSection" id='tokenomics'>
-
-        <div className={'title'} data-aos="zoom-in"><span>Tokenomics</span></div>
+      <div className="customShape">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shapeFill"></path>
+        </svg>
+        </div>
+        <div className="customShape2">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shapeFill"></path>
+        </svg>
+        </div>
+        <div className={'title'} data-aos="zoom-in"><span>TOKENOMICS</span></div>
         <div className={`tknAlign ${styles.alignBox}`}>
 
           <div className="bodyTokenomics">
@@ -15,16 +24,16 @@ export default function ThirdSection() {
           </div>
           <div className="rightSide">
             <div className="boxTxt">
-              <span>Total Supply: 100.000.000.000</span>
+              <span>Total Supply: 469T</span>
             </div>
             <div className="boxTxt">
-              <span>Chain: SOLANA</span>
+              <span>Chain: ETHEREUM</span>
             </div>
             <div className="boxTxt">
-              <span>Symbol: $WOLF</span>
+              <span>Symbol: $PIPI</span>
             </div>
             <div className="boxTxt lastBox">
-              <span>Total Supply: 1 Billion</span>
+              <span>Total Supply: 469 Trillions</span>
               <span>0/0 TAX</span>
               <span>Liquidity Burned</span>
               <span>Ownership Revoked</span>
@@ -38,7 +47,7 @@ export default function ThirdSection() {
         .thirdSection {
           width: 100%;
           min-height: 550px;
-          background-color: #D035FA;
+          background-color: #FFFDF6;
           display: flex;
           align-items: center;
           justify-content: flex-start;
@@ -48,26 +57,6 @@ export default function ThirdSection() {
           padding-bottom: 100px;
         }
 
-        .customShape {
-            position: absolute;
-            top: -105px;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-        }
-
-        .customShape svg {
-            position: relative;
-            display: block;
-            width: calc(150% + 1.3px);
-            height: 106px;
-            transform: rotateX(180deg);
-        }
-
-        .customShape .shapeFill {
-            fill: #D035FA;
-        }
 
         .title{
           width: 100%;
@@ -76,19 +65,12 @@ export default function ThirdSection() {
           font-size: 6rem;
           letter-spacing: 3px;
           font-family: var(--F1), 'sans-serif';
-          color: rgb(236,200,14);
           margin-top: 20px;
-          background-image: linear-gradient(45deg, #03E1FF, #DC1FFF);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -moz-text-fill-color: transparent;
-          -moz-background-clip: text;
-          stroke-width: 3px;
-          -webkit-text-stroke-width: 2px;
-          -webkit-text-stroke-color: white;
+          color: #4d9440;
           display: flex;
           align-items: center;
           justify-content: center;
+          text-shadow: 0px 0px 3px #000;
         }
 
         .tknAlign {
@@ -110,7 +92,7 @@ export default function ThirdSection() {
         }
 
         .imgContainer{
-          width: 550px;
+          width: 350px;
           height: 400px;
           position: relative;
           border-radius: 20px;
@@ -128,13 +110,13 @@ export default function ThirdSection() {
         }
 
         .boxTxt {
-          border: 2px solid rgba(255, 255, 255, 0.7);
+          border: 2px solid #4d9440;
           padding: 10px;
           border-radius: 10px;
           font-family: var(--F1);
           font-size: 1.5rem;
           font-weight: bold;
-          color: white;
+          color: #4d9440;
           padding-left: 20px;
           padding-right: 20px;
         }
@@ -144,6 +126,47 @@ export default function ThirdSection() {
           align-items: flex-start;
           justify-content: flex-start;
           flex-direction: column;
+        }
+
+        .customShape {
+          position: absolute;
+          top: -105px;
+          left: 0;
+          width: 100%;
+          overflow: hidden;
+          line-height: 0;
+        }
+
+        .customShape svg {
+          position: relative;
+          display: block;
+          width: calc(150% + 25px);
+          height: 106px;
+          transform: rotateX(180deg);
+        }
+
+        .customShape .shapeFill {
+            fill: #FFFDF6;
+        }
+
+        .customShape2 {
+            position: absolute;
+            bottom: -106px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .customShape2 svg {
+          position: relative;
+          display: block;
+          width: calc(150% + 2500px);
+          height: 106px;
+        }
+
+        .customShape2 .shapeFill {
+            fill: #FFFDF6;
         }
 
         @media screen and (max-width: 1000px){
@@ -188,6 +211,7 @@ export default function ThirdSection() {
             height: 200px;
           }
         }
+        
 
         
       `}</style>

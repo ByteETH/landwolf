@@ -7,20 +7,22 @@ export default function Navbar() {
     <>
       <div className={`navbarContainer ${styles.alignBox}`} id='home'>
         <div className='leftSide'>
-          <div className='logo'><Image src='/logo4.png' fill='responsive' alt=''/></div>
-          <div className='name'>$WOLF</div>
+          <div className='logo'>
+            <Image src='/logo.png' fill='responsive' alt=''/>
+          </div>
+          <div className='name'>$PiPi</div>
         </div>
         <div className='midSide'>
           <div className='routers'>
             <Link href='#about'><span>About</span></Link>
             <Link href='#htb'><span>How to Buy</span></Link>
             <Link href='#tokenomics'><span>Tokenomics</span></Link>
-            <a href='https://t.me/landwolfcoinsol' target='_BLANK' rel='noreferrer'>Telegram</a>
-            <a href='https://x.com/LandWolf1000x' target='_BLANK' rel='noreferrer'>Twitter</a>
+            <a href='https://t.me/#' target='_BLANK' rel='noreferrer'>Telegram</a>
+            <a href='https://x.com/#' target='_BLANK' rel='noreferrer'>Twitter</a>
           </div>
         </div>
 
-        <div className='rightSide'><a href='https://raydium.io/swap/?outputCurrency=8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD' target='_BLANK' rel='noreferrer'>Buy $WOLF</a></div>
+        <div className='rightSide'><a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#' target='_BLANK' rel='noreferrer'>Buy $PiPi</a></div>
       </div>
 
       <style jsx>{`

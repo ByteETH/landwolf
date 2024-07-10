@@ -21,13 +21,13 @@ export default function FirstSection(){
         <div className={'imgContainer'}><Image src='/about2.png' fill='responsive' alt=''/></div>
       </div>
       <div className={'rightSide'}>
-        <div className={'title'}><span>WHAT IS LANDWOLF</span></div>
+        <div className={'title'}><span>WHAT IS PiPi</span></div>
         <div className={'description'}>
           <span>
-          {`Solana people are into Landwolf, not frogs.`}
+          {`Ethereum people are into Pipi, not pepe.`}
           </span>
           <span>
-            {`Since being established as AVAX’s mascot in 2021 however; Landwolf has never been launched on Solana chain or given the proper run this absolute chad deserves; that is, until now.`}
+            {`PiPi is the girlfriend of Pepe, his first mention on internet was over 7y ago, recognizable and favorite Pepe's character. Meet $PIPI`}
           </span>
           <span>
             Join to our community on telegram and enjoy the ride
@@ -46,7 +46,7 @@ export default function FirstSection(){
     .firstSectionBody{
       width: 100%;
       min-height: 550px;
-      background-color: #D035FA;
+      background-color: #FFFDF6;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -98,31 +98,24 @@ export default function FirstSection(){
       font-size: 4rem;
       letter-spacing: 3px;
       font-family: var(--F1), 'sans-serif';
-      color: rgb(236,200,14);
+      color: #4d9440;
       margin-top: 20px;
-      background-image: linear-gradient(45deg, #03E1FF, #DC1FFF);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-      -moz-background-clip: text;
-      stroke-width: 3px;
-      -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: white;
+      text-shadow: 0px 0px 3px #000;
     }
 
     .description{
       padding-left: 20px;
-      color: white;
+      color: #4d9440;
       width: 500px;
       padding-bottom: 10px;
       padding-right: 10px;
-      font-family: Arial;
       display: flex;
       flex-direction: column;
       gap: 20px;
       font-size: 1.5rem;
       font-family: var(--F1);
       margin-left: 5px;
+      text-shadow: 0px 0px 2px #000;
     }
 
     .transitionContainer{
@@ -230,7 +223,7 @@ export default function FirstSection(){
         }
 
         .customShape .shapeFill {
-            fill: #D035FA;
+            fill: #FFFDF6;
         }
 
         .customShape2 {
@@ -250,7 +243,7 @@ export default function FirstSection(){
         }
 
         .customShape2 .shapeFill {
-            fill: #D035FA;
+            fill: #FFFDF6;
         }
         `}</style>
         </>

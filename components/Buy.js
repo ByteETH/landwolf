@@ -6,13 +6,14 @@ export default function Buy(){
       <div className='buyBox'>
         
       <iframe
-              src="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD&fixed=in"
-              title="BelungaCat"
-              width="100%"
-              height="700px"
-              frameBorder="0"
-              scrolling="no"
-            />
+        src="https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=#"
+        title="Swap"
+        width="500px"
+        height="500px"
+        frameBorder="0"
+        scrolling="no"
+        style={{border : 0, margin: '0, auto', display : 'block', borderRadius : '10px'}}
+      />
       </div>
     </div>
 

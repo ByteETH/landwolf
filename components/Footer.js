@@ -5,31 +5,16 @@ export default function Footer() {
   return (
     <>
       <div className="footerContainer">
-      <div className="customShapeDividerTopFirstSection">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1200 0L0 0 598.97 114.72 1200 0z"
-              className="shapeFill"
-            ></path>
-          </svg>
-        </div>
-      <div className="gradiantBg">
-            </div>
         <div className={`footerAlign ${styles.alignBox}`}>
-          <div className='title'><span >$WOLF</span></div>
+          <div className='title'><span >$PIPI</span></div>
           <div className='socialsContainer'>
-          <a href="https://t.me/landwolfcoinsol" target="_BLANK" rel="noreferrer">
+          <a href="https://t.me/#" target="_BLANK" rel="noreferrer">
             <div className='socialBox'>
               <Image src="/telegram2.png" width="50" height="50" alt="" />
             </div>
           </a>
           <a
-            href="https://twitter.com/LandWolf1000x"
+            href="https://twitter.com/#"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -38,7 +23,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://dexscreener.com/solana/8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD"
+            href="https://dexscreener.com/ethereum/#"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -52,7 +37,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://www.dextools.io/app/es/solana/pair-explorer/8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD"
+            href="https://www.dextools.io/app/es/ether/pair-explorer/#"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -66,13 +51,13 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://raydium.io/swap/?outputCurrency=8feZALtSojHuGM7LY2by7ZRpi35gTjUZJmCV74VyGmDD"
+            href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#"
             target="_BLANK"
             rel="noreferrer"
           >
             <div className='socialBox'>
               <Image
-                src="/raydium.webp"
+                src="/uniswap.png"
                 width="50"
                 height="50"
                 alt=""
@@ -149,37 +134,6 @@ export default function Footer() {
           margin-top: -10px;
           transition: 0.2s ease-out;
           cursor: pointer;
-        }
-
-        .gradiantBg {
-          position: absolute;
-          width: 50%;
-          height: 50%;
-          background: linear-gradient(90deg, #fff, #fff, #fff, #fff);
-          filter: blur(200px);
-          -webkit-filter: blur(200px);
-          z-index: 1;
-        }
-
-        .customShapeDividerTopFirstSection {
-          z-index: 1;
-          position: absolute;
-          top: 0;
-          width: 100%;
-          overflow: hidden;
-          line-height: 0;
-          transform: rotate(0deg);
-        }
-
-        .customShapeDividerTopFirstSection svg {
-          position: relative;
-          display: block;
-          width: calc(100% + 1.3px);
-          height: 100px;
-        }
-
-        .customShapeDividerTopFirstSection .shapeFill {
-          fill: #D035FA;
         }
 
         @media screen and (max-width: 750px){
