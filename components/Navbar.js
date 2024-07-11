@@ -22,7 +22,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className='rightSide'><a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#' target='_BLANK' rel='noreferrer'>Buy $PiPi</a></div>
+        <div className='rightSide'><a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x486e6941FF37283D9De29aFc5A04426e607E77bb' target='_BLANK' rel='noreferrer'>Buy $PiPi</a></div>
       </div>
 
       <style jsx>{`

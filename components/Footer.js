@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://dexscreener.com/ethereum/#"
+            href="https://dexscreener.com/ethereum/0x486e6941FF37283D9De29aFc5A04426e607E77bb"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://www.dextools.io/app/es/ether/pair-explorer/#"
+            href="https://www.dextools.io/app/es/ether/pair-explorer/0x486e6941FF37283D9De29aFc5A04426e607E77bb"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#"
+            href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x486e6941FF37283D9De29aFc5A04426e607E77bb"
             target="_BLANK"
             rel="noreferrer"
           >

@@ -10,12 +10,12 @@ export default function Socials({ wTg, hTg, wDx, hDx, wTw, hTw, sizeLt, wBox, hB
           <Image src="/telegram2.png" width={wTg} height={hTg} alt="" />
         </div>
         </a>
-        <a href='https://www.dextools.io/app/es/ether/pair-explorer/#' rel='noreferrer' target="_BLANK">
+        <a href='https://www.dextools.io/app/es/ether/pair-explorer/0x486e6941FF37283D9De29aFc5A04426e607E77bb' rel='noreferrer' target="_BLANK">
         <div className="box">
           <Image src="/dx.png" width={wDx} height={hDx} alt="" />
         </div>
         </a>
-        <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#' rel='noreferrer' target="_BLANK">
+        <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x486e6941FF37283D9De29aFc5A04426e607E77bb' rel='noreferrer' target="_BLANK">
         <div className="box">
         <Image src="/uniswap.png" width={wR} height={hR} alt="" />
         </div>
