@@ -24,7 +24,7 @@ export default function ThirdSection() {
           </div>
           <div className="rightSide">
             <div className="boxTxt">
-              <span>Total Supply: 469T,69</span>
+              <span>Total Supply: 420T,69</span>
             </div>
             <div className="boxTxt">
               <span>Chain: ETHEREUM</span>
@@ -33,7 +33,7 @@ export default function ThirdSection() {
               <span>Symbol: $PIPI</span>
             </div>
             <div className="boxTxt lastBox">
-              <span>Total Supply: 469,69 Trillions</span>
+              <span>Total Supply: 420,69 Trillions</span>
               <span>0/0 TAX</span>
               <span>Liquidity Burned</span>
               <span>Ownership Revoked</span>
