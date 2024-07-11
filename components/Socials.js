@@ -5,7 +5,7 @@ export default function Socials({ wTg, hTg, wDx, hDx, wTw, hTw, sizeLt, wBox, hB
   return (
     <>
       <div className="socialsContainer">
-        <a href='https://t.me/#' rel='noreferrer' target="_BLANK">
+        <a href='https://t.me/pipitokenerc' rel='noreferrer' target="_BLANK">
         <div className="box">
           <Image src="/telegram2.png" width={wTg} height={hTg} alt="" />
         </div>
